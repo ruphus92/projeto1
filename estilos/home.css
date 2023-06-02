@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+a{
+    margin: 20px;
+    text-decoration: none;
+    transition: 4s;
+}
+a:hover{
+    transform: translateX(50px);
+    
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #c1c1c1;
+}
+a:visited { color: white }
+
+img{
+    width: 100px;
+    height: 70px;
+    transition: 2s; /** Aqui consigo controlar o tempo */
+}
+img:hover{
+    width: 100%;
+    height: 70vh;
+
+    border-radius: 20px;
+
+    /** Aqui consigo colocar a bordar branca*/
+    border: 2px solid white;
+}
+div{
+    width: 90%;
+
+    /** Aqui consigo centralizar os elementos filhos */
+    display: flex;
+    justify-content: center;
+}
